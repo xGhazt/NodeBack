@@ -1,6 +1,6 @@
 import express from 'express';
 // const frontUrl = 'http://localhost:3000'
-const frontUrl = 'https://react-front-f4c8vc171-xghazts-projects.vercel.app'
+const frontUrl = 'https://react-front-five.vercel.app'
 
 
 import medicosRoutes from './routes/medicos.routes.js'
