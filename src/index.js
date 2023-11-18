@@ -12,8 +12,8 @@ async function main(){
         await sequelize.sync({force:false});
         console.log("conexion a la base de datos exitosa");
 
-        app.listen(4000);
-        console.log("servidor en el puerto 4000")
+        app.listen(8080);
+        console.log("servidor en el puerto 8080")
 
 
     } catch (error){
